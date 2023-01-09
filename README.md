@@ -10,7 +10,7 @@ The bot has a single command, `!check`, which takes three arguments:
 
 The `!check` command will output the URLs of the messages in the specified channel that have the highest number of reactions within the given year. The URLs are formatted as `https://discord.com/channels/<guild id>/<text channel id>/<message id>`, where `<guild id>` is the ID of the Discord server that the channel belongs to, `<text channel id>` is the ID of the text channel, and `<message id>` is the ID of the message.
 
-The find_highest_reaction_message() function is called by the !check command and is responsible for finding the messages with the highest number of reactions. It does this by retrieving all of the messages in the specified channel within the given year, and storing them in a dictionary along with their reaction counts. The dictionary is then sorted by reaction count and the messages with the highest reaction counts are selected. Finally, the URLs of the selected messages are returned.
+The `find_highest_reaction_message()` function is called by the `!check` command and is responsible for finding the messages with the highest number of reactions. It does this by retrieving all of the messages in the specified channel within the given year, and storing them in a dictionary along with their reaction counts. The dictionary is then sorted by reaction count and the messages with the highest reaction counts are selected. Finally, the URLs of the selected messages are returned.
 
 # Prerequisites
 
