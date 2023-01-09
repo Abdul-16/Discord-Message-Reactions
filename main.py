@@ -1,3 +1,17 @@
+# PROGRAMMER: Abdullah Bharde
+# DATE CREATED: 9th Jan 2023                    
+# REVISED DATE: 
+# PURPOSE: To find the messages in a specified Discord channel that have the most 
+#          reactions within a specified year. The check function takes three required  
+#          arguments: `ctx`, `channel`, and `year`, and one optional argument `limit`.
+#          ctx is a context object that is passed to the function automatically when  
+#          the command is run. `channel` is an object representing the Discord channel  
+#          in which the messages are being searched for. `year` is an integer representing  
+#          the year for which the messages are being searched for. `limit` is an integer 
+#          representing the minimum number of reactions a message must have to be considered.
+#          The function searches through the channel history for messages with reactions 
+#          within the specified year and returns the messages with the highest number of reactions.
+
 import discord
 from discord.ext import commands
 import os
