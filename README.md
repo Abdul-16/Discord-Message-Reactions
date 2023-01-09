@@ -18,7 +18,7 @@ This Discord bot allows you to get the messages in a particular channel that hav
 
 # Usage
 
-    Run the script with python test.py.
+    Run the script with python main.py.
     In your Discord server, type !check #channel-name year in a text channel where 
     the bot has permissions. Replace #channel-name with the name of the channel you 
     want to search and year with the year you want to search in.
